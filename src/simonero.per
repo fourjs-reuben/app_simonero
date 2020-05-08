@@ -1,0 +1,34 @@
+LAYOUT (TEXT="Simonero")
+VBOX
+GRID 
+{
+[a      |b      ]
+[c      |d      ]
+[e      |f      ]
+[b01|b02|b03|b04]
+}
+END
+GRID (HIDDEN)
+{
+[timer         ]
+}
+END
+END # VBOX
+END # LAYOUT
+
+ATTRIBUTES
+IMAGE a = formonly.top_left, ACTION=top_left,  STRETCH=BOTH, AUTOSCALE ;
+IMAGE b = formonly.top_right, ACTION=top_right, STRETCH=BOTH , AUTOSCALE ;
+IMAGE c = formonly.middle_left, ACTION=middle_left, STRETCH=BOTH , AUTOSCALE ;
+IMAGE d = formonly.middle_right, ACTION=middle_right, STRETCH=BOTH , AUTOSCALE ;
+IMAGE e = formonly.bottom_left, ACTION=bottom_left, STRETCH=BOTH, AUTOSCALE ;
+IMAGE f = formonly.bottom_right, ACTION=bottom_right, STRETCH=BOTH, AUTOSCALE ;
+
+BUTTON b01: start, TEXT="Start";
+BUTTON b02: last, TEXT= "Last", IMAGE="";
+BUTTON b03: test, TEXT="Test";
+BUTTON b04: quit, TEXT="Quit";
+
+
+WEBCOMPONENT timer = FORMONLY.timer, HIDDEN,COMPONENTTYPE="timer";
+

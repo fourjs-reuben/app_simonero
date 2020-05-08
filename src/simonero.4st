@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ANSI_X3.4-1968"?>
+<StyleList>
+  <Style name="Window">
+     <StyleAttribute name="windowType" value="normal" />
+     <StyleAttribute name="actionPanelPosition" value="none" />
+     <StyleAttribute name="ringMenuPosition" value="none" />
+     <StyleAttribute name="border" value="naked" />
+  </Style>
+  <Style name="Image">
+     <StyleAttribute name="alignment" value="center" />
+     <StyleAttribute name="border" value="no" />
+  </Style>
+
+</StyleList>

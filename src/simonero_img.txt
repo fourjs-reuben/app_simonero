@@ -1,0 +1,12 @@
+top_left=FontAwesome.ttf:f111:red
+top_right=FontAwesome.ttf:f111:orange
+middle_left=FontAwesome.ttf:f111:#BF00FF
+middle_right=FontAwesome.ttf:f111:yellow
+bottom_left=FontAwesome.ttf:f111:#0101DF
+bottom_right=FontAwesome.ttf:f111:#80FF00
+top_left_pressed=FontAwesome.ttf:f111:#F78181
+top_right_pressed=FontAwesome.ttf:f111:#F7BE81
+middle_left_pressed=FontAwesome.ttf:f111:#DA81F5
+middle_right_pressed=FontAwesome.ttf:f111:#F3F781
+bottom_left_pressed=FontAwesome.ttf:f111:#81BEF7
+bottom_right_pressed=FontAwesome.ttf:f111:#BEF781
